@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1> Micro bit controller</h1>
+      <h1> Microbit controller</h1>
       <input
         type="text"
         value={message}
@@ -37,7 +37,7 @@ function App() {
       <button onClick={() => send('straight')}>straight</button>
       <button onClick={() => send('right')}>right</button>
       <button onClick={() => send('left')}>left</button>
-      <button onClick={() => send('back')}>Back</button>
+      <button onClick={() => send('back')}>back</button>
     </div>
   );
 }
