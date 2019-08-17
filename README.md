@@ -3,6 +3,8 @@
 It's a controller of microbit on the web browser. This tool connects to a microbit by BLE(bluetooth).
 Thie web app created from `create-react-app`.
 
+![microbit-controller](./microbit-controller.png)
+
 ## install and run App
 
 ```
@@ -20,6 +22,9 @@ These are the function list.
 - connect
 - disconnect
 - sendMessage
+
+![microbit-controller-click-connect](./microbit-controller-click-connect.png)
+![microbit-controller-connected](./microbit-controller-connected.png)
 
 And an example code of microbit, if you send some particular messages below, it moves as follow that message.
 If you send other words, microbit displays those words one by one character.
